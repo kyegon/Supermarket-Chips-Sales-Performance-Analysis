@@ -1,0 +1,15 @@
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Ignore Data files (if large)
+*.csv
+*.xlsx
+data/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment variables
+.env
